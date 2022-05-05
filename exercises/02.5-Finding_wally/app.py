@@ -2,3 +2,14 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
+def starts_with_A(s):
+    return s == "Wally"
+
+filter_object = filter(starts_with_A, people)
+
+prueba = list(filter_object)
+
+print(len(prueba))
+
+
+

@@ -8,7 +8,7 @@ names[0] = names[2] + names[4]
 for x in range(len(names) -1, -1, -1):
     print(names[x])
 
-for x in names[::-1]:
-    print(x)
+# for x in names[::-1]:
+#     print(x)
     
     
